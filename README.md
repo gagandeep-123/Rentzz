@@ -14,4 +14,9 @@ Note :--------------------------------------
 PLease Register with valid Creds to access the platform or use the below mentioned dummy creds to login directly :-
 Email ID - gagandeep123@gmai.com
 Password - Gagandeep@123
+Please use the below cities/states to search basix the location as properties only for these locations arw entered in the Database :-
+1. Delhi
+2. Noida
+3. Bangalore
+4. Punjab
    
