@@ -66,7 +66,7 @@ const Index = () => {
 
     e.preventDefault();
     if (!showSignUp) {
-      fetch(`${apiUrl}api/auth/login`, {
+      fetch(`${apiUrl}/api/auth/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -85,7 +85,7 @@ const Index = () => {
         })
     }
     else {
-      fetch(`${apiUrl}api/auth/signup`, {
+      fetch(`${apiUrl}/api/auth/signup`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
