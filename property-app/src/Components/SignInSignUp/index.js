@@ -61,7 +61,7 @@ const Index = () => {
   // },[userCreds])
 
   const handleUser = (e, showSignUp) => {
-    const apiUrl = "http://localhost:5000/";
+    const apiUrl = "https://totality-frontend-challenge-be.onrender.com";
 
     e.preventDefault();
     if (!showSignUp) {
