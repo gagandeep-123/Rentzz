@@ -5,6 +5,7 @@ import Landingpage from './Pages/Landingpage';
 import SignupPage from './Pages/SignupPage';
 import Cartpage from './Pages/Cartpage'
 import SearchPage from './Pages/SearchPage';
+import Confirm from "./Components/Confirm/Index";
 
 
  const cards = [
@@ -40,8 +41,8 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 4,
-     Propname: "Singh's Suites",
-     Location: "Noida",
+     Propname: "Singh's builder",
+     Location: "lucknow",
      Price: "15",
      Bedrooms: "1",
      ammenities: ["Pool", "Gymnasium", "Club"],
@@ -50,7 +51,7 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 5,
-     Propname: "Singh's Suites",
+     Propname: "Ahuja Builder",
      Location: "Noida",
      Price: "25",
      Bedrooms: "2",
@@ -60,7 +61,7 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 6,
-     Propname: "Singh's Suites",
+     Propname: "Golden Plaza",
      Location: "Noida",
      Price: "65",
      type: "Farm House",
@@ -70,8 +71,8 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 23,
-     Propname: "Singh's Suites",
-     Location: "Noida",
+     Propname: "Crown Memorial",
+     Location: "Delhi",
      Price: "85",
      type: "Farm House",
      ammenities: ["Pool", "Community Center"],
@@ -80,7 +81,7 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 7,
-     Propname: "Singh's Suites",
+     Propname: "Lavish Inn",
      Location: "Noida",
      Price: "65",
      type: "Farm House",
@@ -90,8 +91,8 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 8,
-     Propname: "Singh's Suites",
-     Location: "Noida",
+     Propname: "SKON Villa",
+     Location: "Bangalore",
      Price: "44",
      type: "Farm House",
      ammenities: ["Pool", "East facing", "Club"],
@@ -100,8 +101,8 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 9,
-     Propname: "Singh's Suites",
-     Location: "Noida",
+     Propname: "Skyscapper",
+     Location: "Delhi",
      Price: "65",
      type: "Farm House",
      ammenities: ["Private Garden", "Fitness Center", "Club"],
@@ -110,8 +111,8 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 10,
-     Propname: "Singh's Suites",
-     Location: "Noida",
+     Propname: "GetSet Rentals",
+     Location: "Delhi",
      Price: "65",
      Bedrooms: "1",
      type: "Farm House",
@@ -120,8 +121,8 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 11,
-     Propname: "Singh's Suites",
-     Location: "Noida",
+     Propname: "CharmWood",
+     Location: "Punjab",
      Price: "65",
      Bedrooms: "1",
      type: "Farm House",
@@ -130,7 +131,7 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 12,
-     Propname: "Singh's Suites",
+     Propname: "Lakeside",
      Location: "Noida",
      Price: "65",
      type: "Farm House",
@@ -140,8 +141,8 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 13,
-     Propname: "Singh's Suites",
-     Location: "Noida",
+     Propname: "RoseWood",
+     Location: "Punjab",
      Price: "5",
      type: "Farm House",
      ammenities: ["Pool", "Fitness Center", "Club"],
@@ -150,8 +151,8 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 14,
-     Propname: "Singh's Suites",
-     Location: "Noida",
+     Propname: "Hubheavens",
+     Location: "Delhi",
      Price: "65",
      type: "Farm House",
      Bedrooms: "1",
@@ -160,7 +161,7 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 15,
-     Propname: "Singh's Suites",
+     Propname: "Grove Homes",
      Location: "Noida",
      Price: "65",
      type: "Farm House",
@@ -170,8 +171,8 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 16,
-     Propname: "Singh's Suites",
-     Location: "Noida",
+     Propname: "Sky Lux",
+     Location: "Bangalore",
      Price: "65",
      type: "Farm House",
      ammenities: ["Pool", "Gymnasium", "Club"],
@@ -180,8 +181,8 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 17,
-     Propname: "Singh's Suites",
-     Location: "Noida",
+     Propname: "Palm's",
+     Location: "Delhi",
      Price: "65",
      ammenities: ["Pool", "Fitness Center", "Gymnasium"],
      type: "Farm House",
@@ -190,8 +191,8 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 18,
-     Propname: "Singh's Suites",
-     Location: "Noida",
+     Propname: "Oasis Retreat",
+     Location: "Lucknow",
      Price: "65",
      type: "Farm House",
      ammenities: ["Pool", "Fitness Center", "Club"],
@@ -200,8 +201,8 @@ import SearchPage from './Pages/SearchPage';
    },
    {
      id: 19,
-     Propname: "Singh's Suites",
-     Location: "Noida",
+     Propname: "Alpha Homes",
+     Location: "Bangalore",
      Price: "65",
      type: "Farm House",
      ammenities: ["Private Garden", "Fitness Center", "Club"],
@@ -231,7 +232,11 @@ const Body = ({history}) => {
         {
             path: "/search",
             element: <SearchPage cards={cards} />
-        },
+      },
+      {
+        path: "/confirm",
+        element : <Confirm />
+        }
         
     ])
     return (

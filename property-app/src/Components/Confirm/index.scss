@@ -1,0 +1,63 @@
+
+.confirm-wrapper{
+    background-color: #f4f3f3;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 60px;
+    padding: 30px 50px;
+    .text{
+        font-size: 26px;
+    font-weight: 700;
+    }
+    .form{
+        margin-top: 20px;
+    }
+    .form input{
+        margin: 10px 0;
+        height: 32px;
+    border: none;
+    padding: 0 10px;
+    outline: none;
+    border-radius: 10px;
+    width: 50%;
+    }
+    .form .input{
+        margin-top: 20px;
+    }
+    label{
+        margin-right: 16px;
+        font-size: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+    }
+
+      .optionText{
+            margin-right: 16px;
+            margin-top: 20px;
+    font-size: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+        }
+    .options{
+        margin-top: 20px;
+      
+        label {
+            color: black;
+            margin-left: 10px;
+        }
+    }
+    .pay-btn{
+        font-size: 14px;
+    padding: 15px 28px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(119, 26, 26);
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    width: 100%;
+    }
+}

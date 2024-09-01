@@ -45,7 +45,7 @@ const Index = ({ cards, hideForm, fromCart}) => {
       <div>
         <div className="outer">
           <div className="main1">
-            <div className="left">BOOKING.COM</div>
+            <div className="left">RENTZ.com</div>
             
               <div className="text">Find It, Love It, Rent It.</div>
             

@@ -2,11 +2,13 @@ import { useSelector, useDispatch} from 'react-redux';
 import './style.scss';
 import { useEffect, useState } from 'react';
 import { clearCart } from '../../Slices/cartslice';
+import { useNavigate } from 'react-router-dom';
 
 const Payment = () => {
   const [total, setTotal] = useState(0);
   const [cartvalue, setCartValue] = useState(0);
   const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   const items = useSelector((store) => (store.cart.items))
 
@@ -61,6 +63,9 @@ const Payment = () => {
       <button onClick={() => clearCartItem()} className="clear-cart">
         Clear Cart
       </button>
+      <button onClick={() => {
+        navigate("/confirm")
+      }} style={{marginTop:"20px"}} className="clear-cart">Confirm my Booking</button>
     </div>
   );
 }
