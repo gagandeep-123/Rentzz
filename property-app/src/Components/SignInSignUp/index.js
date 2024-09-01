@@ -61,7 +61,8 @@ const Index = () => {
   // },[userCreds])
 
   const handleUser = (e, showSignUp) => {
-    const apiUrl = "https://totality-frontend-challenge-be.onrender.com";
+    const apiUrl =
+      "https://totality-frontend-challenge-backend-app.onrender.com";
 
     e.preventDefault();
     if (!showSignUp) {
