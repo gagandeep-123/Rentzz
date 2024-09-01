@@ -1,0 +1,131 @@
+.outer{
+    background-color: #771a1a;
+        position: relative;
+        display: flex;
+padding: 0px 30px;
+
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    .main1{
+        align-items: center;
+    }
+
+    .text{
+        font-size: 24px;
+    color: white;
+        font-weight: 700;
+    }
+    .right{
+        font-size: 16px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+
+    p{
+            font-size: 20px;
+    font-style: italic;
+    }
+    }
+    .img-avatar{
+        width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+    }
+    .left{
+    
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    }
+
+    .cart{
+        display: flex;
+        align-items: center;
+            color: white;
+            position: relative;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 35px;
+    cursor: pointer;
+    }
+
+    .count{
+        border-radius: 50%;
+    background-color: #c7c4c4;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 13px;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    left: -21px;
+    top: -8px;
+    }
+.main1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .middle{
+        display: flex;
+     
+    }
+
+}
+
+}
+.search-form{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 12%;
+    text-align: center;
+    margin: auto;
+    right: 50px;
+    left: 50px;
+    width: 80%;
+    background-color: #e4d8d8e8;
+    height: 80px;
+    .input-wrapper button:disabled{
+  background-color: rgb(238 0 0 / 30%);
+    cursor: not-allowed;
+}
+
+    .input-wrapper{
+        display: flex;
+    padding: 23px 0;
+        justify-content: space-between;
+
+        input{
+            width: 456px;
+    border: none;
+    padding: 18px;
+    border-radius: 14px;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: italic;
+    outline: none;
+            
+
+        }
+        button{
+            background-color: #771a1a;
+    padding: 32px 20px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    padding-top: 11px;
+    font-size: 18px;
+    margin-left: 13px;
+ 
+        }
+}
+    
+    }

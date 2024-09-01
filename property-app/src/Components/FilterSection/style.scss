@@ -1,0 +1,44 @@
+.filters-contr{
+        width: 20%;
+    background-color: #f4f3f3;
+    border-radius: 20px;
+    padding: 30px;
+    height: 630px;
+    .inner{
+        margin-bottom: 30px;
+        .loc{
+               font-weight: 600;
+    color: #837b7b;
+    font-size: 18px;
+    margin-top: 6px;
+        }
+    }
+    
+    p{
+        margin: 0;
+    }
+    .head{
+        font-size: 25px;
+    font-weight: 500;
+    border-bottom: 1px solid #c3bdbd;
+    padding-bottom: 8px;
+    }
+
+    .input-div{
+        margin-top: 10px;
+    font-weight: 600;
+    color: #837b7b;
+    font-size: 18px;
+
+        label{
+            margin-left: 5px;
+        }
+    }
+
+    .heading{
+        font-size: 34px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 34px;
+    }
+}

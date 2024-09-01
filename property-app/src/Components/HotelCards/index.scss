@@ -1,0 +1,88 @@
+
+
+.main-contr{
+    display: flex;
+    padding: 60px 80px;
+    .text{
+        font-size: 30px;
+    font-weight: 700;
+    margin-left: 50px;
+    width: 80%;
+    color: #771a1a;
+    border-bottom: 1px solid #d2cccc;
+    padding-bottom: 10px;
+    margin-bottom: 19px;
+    }
+    .container{
+        width: 80%;
+    }
+.card-cont{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 70%;
+    margin-left: 40px;
+
+}
+    p{
+        margin: 0;
+    }
+    .my-card{
+        
+               width: 100%;
+margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    padding: 30px 36px;
+    background-color: #f4f3f3;
+    border-radius: 20px;
+
+    .name{
+        font-size: 30px;
+    font-weight: 700;
+    }
+    .type{
+        font-size: 22px;
+
+    padding: 5px x;
+    border-radius: 13px;
+    }
+    .bhk{
+        background-color: #e6e6e6;
+    padding: 8px 13px;
+    width: 50px;
+    border-radius: 16px;
+    margin-top: 20px;
+    }
+    .price{
+        font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    }
+    .amenities{
+        background-color: #e6e6e6;
+    padding: 8px 15px;
+    border-radius: 16px;
+    margin-left: 10px;
+
+    }
+    button{
+    height: 45px;
+    cursor: pointer;
+    width: 155px;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #771a1a;
+    }
+    }
+    .card-img{
+    height: 220px;
+    width: 290px;
+        margin-right: 20px;
+
+}
+}

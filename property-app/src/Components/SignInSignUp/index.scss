@@ -1,0 +1,108 @@
+
+.main-wrapper{
+    position: absolute;
+    right: 76px;
+    top : 127px;
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+
+    .header{
+       background-color: #003b95;
+    height: 10vh;
+    display: flex;
+    .header-text{
+        margin-left: 76px;
+    margin-top: 17px;
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    }
+
+}
+.click-text{
+   color: #771a1a;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 6px;
+}
+    .form{
+
+    .heading{
+        font-size: 28px;
+        color: #771a1a;
+        font-weight: 700;
+        
+    }
+}
+.block{
+    padding: 8px 20px;
+    font-size: 12px;
+    display: block;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.button{
+     display: block;
+    border-radius: 20px;
+    padding: 9px;
+    cursor: pointer;
+    padding: 10px 41px;
+    border: none;
+    margin-top: 30px;
+    background-color: #771a1a;
+    font-size: 14px;
+    color: #FFFF;
+}
+.button:disabled{
+  background-color: rgb(238 0 0 / 30%);
+    cursor: not-allowed;
+}
+.input-wrapper{
+    margin-top: 30px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    margin: 12px;
+    justify-content: center;
+    width: 100%;
+}
+
+.avatar-wrapper{
+    display: flex;
+    margin-top: 35px;
+    flex-direction: column;
+
+    .inner{
+        display: flex;
+    }
+
+    .avatar-image{
+        position: relative;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    p{
+        margin-top: 0;
+        font-weight: 600;
+    }
+
+    img{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+}
+
+
+
+
+
